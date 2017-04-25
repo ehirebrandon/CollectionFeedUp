@@ -12,6 +12,7 @@ class CustomCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+     
         
         collectionView?.backgroundColor = UIColor.blue
         // Do any additional setup after loading the view, typically from a nib.
