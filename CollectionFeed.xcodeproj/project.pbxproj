@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA5BD4ED1EAEF43D006C6729 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5BD4EA1EAEF43D006C6729 /* CustomTabBarController.swift */; };
+		CA5BD4EE1EAEF43D006C6729 /* OtherControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5BD4EB1EAEF43D006C6729 /* OtherControllers.swift */; };
+		CA5BD4EF1EAEF43D006C6729 /* single_post.json in Resources */ = {isa = PBXBuildFile; fileRef = CA5BD4EC1EAEF43D006C6729 /* single_post.json */; };
+		CA5BD4F11EAFD46A006C6729 /* all_posts.json in Resources */ = {isa = PBXBuildFile; fileRef = CA5BD4F01EAFD46A006C6729 /* all_posts.json */; };
 		CA85C5D91EAD088B002C8317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85C5D81EAD088B002C8317 /* AppDelegate.swift */; };
 		CA85C5DB1EAD088B002C8317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA85C5DA1EAD088B002C8317 /* ViewController.swift */; };
 		CA85C5E11EAD088C002C8317 /* CollectionFeed.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA85C5DF1EAD088C002C8317 /* CollectionFeed.xcdatamodeld */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA5BD4EA1EAEF43D006C6729 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		CA5BD4EB1EAEF43D006C6729 /* OtherControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherControllers.swift; sourceTree = "<group>"; };
+		CA5BD4EC1EAEF43D006C6729 /* single_post.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = single_post.json; sourceTree = "<group>"; };
+		CA5BD4F01EAFD46A006C6729 /* all_posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = all_posts.json; sourceTree = "<group>"; };
 		CA85C5D51EAD088B002C8317 /* CollectionFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA85C5D81EAD088B002C8317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA85C5DA1EAD088B002C8317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +109,10 @@
 				CA85C5DA1EAD088B002C8317 /* ViewController.swift */,
 				CA85C5E21EAD088C002C8317 /* Assets.xcassets */,
 				CA85C5E41EAD088C002C8317 /* LaunchScreen.storyboard */,
+				CA5BD4EA1EAEF43D006C6729 /* CustomTabBarController.swift */,
+				CA5BD4EB1EAEF43D006C6729 /* OtherControllers.swift */,
+				CA5BD4EC1EAEF43D006C6729 /* single_post.json */,
+				CA5BD4F01EAFD46A006C6729 /* all_posts.json */,
 				CA85C5E71EAD088C002C8317 /* Info.plist */,
 				CA85C5DF1EAD088C002C8317 /* CollectionFeed.xcdatamodeld */,
 			);
@@ -237,6 +249,8 @@
 			files = (
 				CA85C5E61EAD088C002C8317 /* LaunchScreen.storyboard in Resources */,
 				CA85C5E31EAD088C002C8317 /* Assets.xcassets in Resources */,
+				CA5BD4EF1EAEF43D006C6729 /* single_post.json in Resources */,
+				CA5BD4F11EAFD46A006C6729 /* all_posts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +277,8 @@
 			files = (
 				CA85C5E11EAD088C002C8317 /* CollectionFeed.xcdatamodeld in Sources */,
 				CA85C5DB1EAD088B002C8317 /* ViewController.swift in Sources */,
+				CA5BD4EE1EAEF43D006C6729 /* OtherControllers.swift in Sources */,
+				CA5BD4ED1EAEF43D006C6729 /* CustomTabBarController.swift in Sources */,
 				CA85C5D91EAD088B002C8317 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +524,7 @@
 				CA85C6021EAD088C002C8317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA85C6031EAD088C002C8317 /* Build configuration list for PBXNativeTarget "CollectionFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +533,7 @@
 				CA85C6051EAD088C002C8317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA85C6061EAD088C002C8317 /* Build configuration list for PBXNativeTarget "CollectionFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +542,7 @@
 				CA85C6081EAD088C002C8317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
